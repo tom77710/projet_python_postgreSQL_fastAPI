@@ -1,0 +1,10 @@
+nick_name,full_name,occupation,powers,hobby,type,rank
+Gale,Gale Dekarios,"{""Wizard"",""Adventurer"",""Deity""}","{""Magical prowess"",""High intelligence"",""Charisma""}","{""Studying magic"",""Drinking"",""Cooking""}",Wizard,54
+Doric,Doric,"{""Druid"",""Adventurer""}","{""Combat skills"",""Shapeshifting""}","{""Stealing with Edgin, Simon, and Holga.""}",Druid,71
+Ed,Edgin Darvis,"{""Thief"",""Adventurer"",""Harper agent""}","{""Magical skills"",""Strategizing"",""High-level Intelligence"",""Charisma""}","{""Playing music""}",Thief,68
+Ho-Ho,Holga Kilgore,"{""Member of the Elk tribe"",""Adventurer"",""Thief""}","{""Great strength"",""Dancing skills""}","{""Hanging out with Edgin""}",Amazonian Brute,85
+Xenk,Xenk Yendar,"{""Paladin"",""Adventurer""}","{""Sensing evil"",""Magical skills"",""Fighting skills"",""Charisma""}","{""Helping people"",""Fighting evil""}",Knight,95
+Uncle Forge,Forge Fitzwilliam,"{""Lord of Neverwinter"",""Prisoner""}","{""Charisma"",""Agility"",""Stealth"",""Manipulation"",""Deception"",""Investigation skills"",""Intelligence"",""Forgery skills""}","{""Conspiracy"",""Usurpation"",""Abuse of power""}",Opportunist,80
+The would-be sorcerer,Simon Aumar,"{""Sorcerer"",""Thief""}","{""Magic"",""Spellcasting"",""Arcane Knowledge""}","{""Stealing with Edgin, Doric, and Holga.""}",Insecure Sorcerer,82
+The red wizard,Sofina,"{""Member of the Red Wizards of Thay"",""Forge Fitzwilliam's right hand (formerly)""}","{""Dark magic"",""Extreme intelligence"",""Immortality"",""Bilingualism""}","{""Conspiracy"",""Terrorism"",""Attempted populicide"",""Unlawful imprisonment"",""Animal cruelty"",""Mass murder"",""Property damage""}",Priestess,85
+Zulkir of Necromancy,Szass Tam,"{""Leader of the Red Wizards of Thay"",""Ruler of Thaymount""}","{""Necromancy"",""Mastery of dark magic"",""Leadership"",""Manipulation""}","{""Corruption"",""Slavery"",""Torture"",""Abuse of power"",""Brainwashing"",""Defilement"",""Extortion""}",Lich,100
