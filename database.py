@@ -3,19 +3,24 @@ from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker, Session
 from sqlalchemy.ext.declarative import declarative_base
 from fastapi import Depends
+from config import settings
 
-SQLALCHEMY_DATABASE_URI = "postgresql://postgres:postgres@localhost:5432/DungeonsAndDragons"
+# Construction dynamique de l'URI
+SQLALCHEMY_DATABASE_URI = (
+    f"postgresql://{settings.db_user}:{settings.db_password}"
+    f"@{settings.db_host}:{settings.db_port}/{settings.db_name}"
+)
 
-# DEF ENGINE
+# Création de l'engine
 engine = create_engine(SQLALCHEMY_DATABASE_URI)
 
-# DEF OF SESSION
-SessionLocal = sessionmaker(autoflush=False, autocommit=False, bind=engine)
+# Session locale
+SessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine)
 
-# DEF OF BASE AS AN OBJECT TO USE
+# Base déclarative
 Base = declarative_base()
 
-# DEPENDENCY CORE
+# Dépendance FastAPI
 def get_db():
     db = SessionLocal()
     try:
@@ -23,5 +28,5 @@ def get_db():
     finally:
         db.close()
 
-# DEPENDENCY ANNOTATED
+# Annotated dependency
 db_dependency = Annotated[Session, Depends(get_db)]
