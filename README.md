@@ -1,4 +1,10 @@
-# fastgres-record
+# Jeux Dungeon et Dragon
+
+Fait avec :
+
+- Python
+- FastAPI
+- Postgres
 
 
 ## Getting started & Structure du Projet
